@@ -738,10 +738,6 @@ img::selection {
 }
 
 @media screen and (max-width: 425px) {
-	.sectionBox-image {
-		margin: 0 auto;
-	}
-	
 	label[for="barsMenu"] {
 		display: block;
 		position: relative;
@@ -891,6 +887,7 @@ img::selection {
 	.sectionBox-image,
 	.sectionBox-image img {
 		width: 100%;
+		margin: 0 auto;
 	}
 
 	.sectionBox-content {
